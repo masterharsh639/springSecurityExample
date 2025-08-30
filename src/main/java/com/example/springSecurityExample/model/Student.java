@@ -1,11 +1,11 @@
-package com.example.springSecurityExample;
+package com.example.springSecurityExample.model;
 
 public class Student {
     private int id;
     private int marks;
     private String name;
 
-    Student(int id,String name,int marks){
+    public Student(int id, String name, int marks){
         this.id=id;
         this.marks=marks;
         this.name=name;
