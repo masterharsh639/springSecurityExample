@@ -1,12 +1,13 @@
 package com.example.springSecurityExample.model;
 
 import jakarta.persistence.Entity;
-import org.springframework.data.annotation.Id;
+import jakarta.persistence.Id;
 
     @Entity
     public class Users {
         @Id
         private int id;
+
         private String username;
         private String password;
 
